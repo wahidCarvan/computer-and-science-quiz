@@ -1,0 +1,366 @@
+* {
+ font-family: 'Libre Baskerville', serif;
+
+
+}
+/*universal box sizing reset with inhertance*/
+html {
+    /*supporting all browswers*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  /*supporting all browswers*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: inherit;
+  margin-top: 20px;
+  /*border-radius: 50px;*/
+/*  margin: auto;*/
+}
+/*back ground image*/
+/*background image*/
+body{
+  background-image: url(https://www.proprofs.com/quiz-school/images/description/K_EDUCATION/3.jpg);
+  background-repeat: no-repeat;
+  /*background-position: center center;*/
+/* Browser Prefixed CSS */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+/* CSS Property */
+  /*background-size: cover;*/
+}
+/*testing being done*/
+main{
+  max-width:600px;
+  margin: 0 auto;
+  background-color: #FCFCFC;
+  /*background-color: skyblue;*/
+  height: auto;
+  text-align: center;
+  color: #2C211B;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0px;
+  border-radius:6px; 
+  border: solid 5px #352C27;
+}
+
+
+.answerChoice span {
+  margin: auto;
+    margin-left: 10px;
+}
+
+.quizLogo {
+  border-radius: 50px;
+}
+
+body {
+  /*background-color: lightgreen;*/
+  background-color: #00bfff;
+  color: #000000;
+}
+ 
+.nextButton {
+    display: none;
+    background-color: white;
+    color: #050505;
+    margin-bottom: 20px;
+    width: 150px;
+    /*not working*/
+    /*text-align: center;*/
+}
+
+header  {
+  /*takes up 100 percent of the page*/
+    width: 100%;
+    font-size: 30px;
+    color: rgba(8, 8, 8, 1);
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.bg {
+  text-align: center;
+
+}
+
+main ul li {
+  /*removes the bullets*/
+  list-style: none;
+  font-weight: bold;
+  text-align: center;
+  /*color: #00bfff;*/
+
+}
+
+/**/
+.startTheQuiz {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #FCFCFC;
+    color:#050505;
+  
+}
+
+button {
+    padding: 10px;
+    /*background-color: skyblue;*/
+    color: rgba(8, 8, 8, 1);
+    font-size: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+/*button:hover, button:focus {
+    background-color: #13A5F9;
+    color: rgba(255, 255, 255, 1);
+}*/
+
+label:nth-child(1) {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+      
+}
+
+label:nth-child(2) {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+      
+}
+
+label:nth-child(3) {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+      
+}
+
+label:nth-child(4) {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+
+}
+
+label {
+    padding: 25px;
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+    line-height: 22px
+    margin: auto;
+}
+
+/*label:hover, label:focus {
+    background-color: red;
+}*/
+
+fieldset {
+    border: none;
+    /*removed the width - makes it fixed*/
+    /*width: 700px;*/
+    margin:auto;
+    text-align: center;
+}
+
+/*legend {*/
+
+/*  border: none;*/
+/*  margin: auto;*/
+/*  font-size: 35px;*/
+/*  color: black;*/
+/*}*/
+legend { 
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+    font-size: 20px;
+}
+input:checked {
+    border: 8px solid #ebca52;
+}
+
+input[type=radio] {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    margin: auto;
+}
+
+
+h1 {
+    /*background: white;*/
+    /*color: blue;*/
+    /*border: 5 px solid white;*/
+    background-color: #FAFAFA;
+    border-radius: 40px;
+    color: #050505;
+    margin-top: 0px;
+
+}
+
+h2 {
+    margin-bottom: 20px;
+    
+}
+
+.startButton {
+   /* width: 100px;
+    height: 100px;
+    margin-bottom: 2px;
+    background-color: skyblue;*/
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    font: bold;
+    margin-top: 30px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/*form button*/
+form button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  /*color: #000BFF;*/
+  background-color: white;
+  border: 2px solid;
+  border-radius: 15px;
+  /*box-shadow: 0 9px #999;*/
+}
+
+.correctFeedback {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px
+    font-size: 20px;
+}
+
+/*.correctFeedback button {
+    width: 100%
+}*/
+.correctFeedback p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-left: 20px;
+    margin-right: 20px
+}
+.correctFeedback span {
+    color: black;
+    margin: auto;
+
+}
+.correctFeedback img {
+    width: 350px;
+    height: auto;
+    display: block;
+    border-radius: 50px;
+    /*background-color: rgb(65, 86, 244);*/
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px
+
+}
+
+p {
+    font-color: black;
+    font-size: 30px;
+    font-weight: bold;
+/*  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 20px;*/
+
+}
+.results img {
+    width: 400px;
+    height: auto;
+}
+.results p:first-of-type {
+    font-size: 25px;
+    margin-bottom: 10px
+}
+.results p {
+    font-size: 18px;
+    line-height: 50px;
+    font-size: 25px;
+   
+}
+.restart {
+  text-align: center;
+  font-size: 25px;
+  background-color: white;
+  color: #050505;
+
+}
+
+
+
+
+/*making the app adjust to different screens*/
+/*changes when the max width is 500 px or less*/
+@media screen and (max-width: 500px) {
+
+.results p {
+    font-size: 40px; 
+}
+.results p:first-of-type {
+    font-size: 50px;
+    
+}
+
+.results img {
+    width: 100%;
+    height: auto;
+}
+
+.final {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2{ 
+font-size: 40px;
+}
+
+header ul li {
+font-size: 40px;
+}
+
+} /* closing bracket for media*/
+
+h1 {
+  text-align: center;
+}
+
